@@ -374,10 +374,10 @@ margin-right: 50px;
 .filter-item:not(:last-child) {
     margin-right: 8px;
 }
-.filter-item{
+/* .filter-item{
     display: block;
    align-items: center;
-}
+} */
 
 .filter-btn{
 
