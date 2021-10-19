@@ -51,6 +51,7 @@ img{
 
 .btn{
     cursor: pointer;
+    border: none;
 }
 .section-title{
     font-size: 36px;
@@ -162,19 +163,21 @@ margin-right: 50px;
     padding-bottom: 200px;
 
 }
+.hero-container{
+text-align: center;
+}
 
 .hero-title{
-
-    margin-top: 0;
-    margin-bottom: 30px;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: var(--primery-title-color);
-    width: 696px;
-    margin: 0 auto;
+    /* width: 696px; */
+    /* margin: 0 auto; */
     margin-bottom: 30px;
+    
     
 
     
@@ -281,8 +284,14 @@ margin-right: 50px;
     display: flex;
     
 }
+
+.team-description{
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
 .team-title{
-    margin-top: 30px;
+
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -305,7 +314,7 @@ margin-right: 50px;
 }
 
 .team-text{
-    
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.19;
     color: var(--second-text-color);
@@ -335,7 +344,7 @@ margin-right: 50px;
     text-decoration: none;
 }
 .contakts-address{
-    width: 231px;
+    
     margin-right: 0;
     font-style: inherit;
 
@@ -345,10 +354,7 @@ margin-right: 50px;
 .contakts-item:not(:last-child){
     margin-bottom: 9px;
 }
-.contakts-list{
-    /* width: 231px; */
-    
-}
+
 
 
 .address-link{
@@ -366,8 +372,8 @@ margin-right: 50px;
 /* portfolio-header */
 
 .portfolio-section{
-   padding-top: 119px;
-   padding-bottom: 69px;
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 
 
@@ -386,7 +392,7 @@ margin-right: 50px;
 .filter-btn{
 
     border-radius: 4px;
-    border-color: transparent;
+    padding: 6px 22px;
     min-height: 38px;
     font-family: inherit;
     font-weight: 500;
@@ -407,7 +413,7 @@ margin-right: 50px;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    
 
 }
 .portfolio-item{
